@@ -45,5 +45,4 @@ func countLines(f *os.File, counts map[string]int, fileCount map[string]map[stri
 		}
 		fileCount[text][fileName]++
 	}
-	// NOTE: ignoring potential errors from input.Err()
 }
