@@ -46,6 +46,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	for param, values := range r.Form {
 		var value = strings.Join(values, "")
+		// values is a array of strings so it has to be converted into 1 string to be parsed based off of parameter
 
 		switch param {
 		case "cycles":
