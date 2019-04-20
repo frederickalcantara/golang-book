@@ -6,7 +6,7 @@ import "fmt"
 
 func main() {
 	r := 1
-	data := []string{"Hello", "people", "world"}
+	data := []string{"people", "Hello", "world"}
 	data = append(data[r:], data[:r]...)
 	fmt.Println(data)
 }
