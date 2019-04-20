@@ -1,6 +1,6 @@
 package main
 
-// Uses a map to determine which represent which set of lines have already appeared to ensure repeating occurencies don't get printed
+// Uses a map to determine that represent which set of lines have already appeared to ensure repeating occurencies don't get printed
 
 import (
 	"bufio"
